@@ -1,0 +1,25 @@
+.questions{
+    padding: 16px;
+    width: 10rem;
+    text-align: center;
+    padding-top: 0;
+    border: 10px solid #9bb1ff;
+    border-top: none;
+    border-radius: 4px;
+}
+
+.words{
+    color: #788bff;
+    font-size: 2rem;
+    letter-spacing: 0.05em;
+    border-bottom: 2px solid;
+    margin-top: 16px;
+    margin-bottom: 30px;
+    padding-bottom: 2px;
+}
+
+.text{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}

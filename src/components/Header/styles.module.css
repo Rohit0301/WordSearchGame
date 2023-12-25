@@ -1,0 +1,25 @@
+
+.word_search {
+    background: linear-gradient(to right, #890620, #f08080, #5465ff, #8338ec, #004e89);
+    width: 100%;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    text-align: center;
+    color: transparent;
+    display: inline-block;
+    -webkit-background-clip: text;
+}
+
+.timer{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.minutes{
+    color: #619b8a
+}
+.seconds{
+    color: #e07a5f;
+}

@@ -1,0 +1,65 @@
+.cell{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #ccc;
+    position: relative;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.board{
+    gap: 1px;
+    display: grid;
+    border: 1px solid #333;
+    background-color: #fff;
+    grid-template-rows: repeat(9, 1fr);
+    position: absolute;
+    top: 0;
+    left: 0;
+    grid-template-columns: repeat(9, 1fr);
+}
+
+.rect{
+    top: 3px;
+    left: 2px;
+    width: 36px;
+    bottom: 3px;
+    opacity: 0.5;
+    position: absolute;
+    border-radius: 1rem;
+    background-color: red;
+    transform-origin: left top;
+}
+
+.rect_diagonal{
+    top: -7px;
+    left: 18px;
+    width: 36px;
+    opacity: 0.5;
+    height: 36px;
+    position: absolute;
+    border-radius: 3rem;
+    background-color: #fd0505;
+    transform-origin: left top;
+    transform: rotatez(45deg);
+}
+
+.rect_horizontal{
+    top: 0px;
+    left: 36px;
+    opacity: 0.5;
+    height: 36px;
+    position: absolute;
+    border-radius: 3rem;
+    background-color: #fd0505;
+    transform-origin: left top;
+    transform: rotatez(90deg);
+}
